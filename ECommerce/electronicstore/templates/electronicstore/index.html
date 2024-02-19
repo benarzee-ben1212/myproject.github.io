@@ -1,0 +1,12 @@
+{% extends 'electronicstore/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+    {% include 'chat/partials/chat_bubble.html' %}
+{% endblock %}
+
+{% block scripts %}
+    <script src="{% static 'js/main.js' %}"></script>
+{% endblock %}
